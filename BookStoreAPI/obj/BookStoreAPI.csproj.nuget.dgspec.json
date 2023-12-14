@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DALIL\\Desktop\\Dotnet\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\DALIL\\Desktop\\Dotnet\\BookStoreAPI\\BookStoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DALIL\\Desktop\\Dotnet\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\DALIL\\Desktop\\Dotnet\\BookStoreAPI\\BookStoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DALIL\\Desktop\\Dotnet\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\DALIL\\Desktop\\Dotnet\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\DALIL\\Desktop\\Dotnet\\BookStoreAPI\\BookStoreAPI.csproj",
+        "projectName": "BookStoreAPI",
+        "projectPath": "C:\\Users\\DALIL\\Desktop\\Dotnet\\BookStoreAPI\\BookStoreAPI.csproj",
         "packagesPath": "C:\\Users\\DALIL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DALIL\\Desktop\\Dotnet\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\DALIL\\Desktop\\Dotnet\\BookStoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +73,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
