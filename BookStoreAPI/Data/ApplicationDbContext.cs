@@ -9,7 +9,6 @@ namespace DbContextAPI.Data
             : base(options)
         {
         }
-
         public DbSet<Book> Books { get; set; }
     }
 }
