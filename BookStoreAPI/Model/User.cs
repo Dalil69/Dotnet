@@ -1,4 +1,4 @@
-namespace BookStorageAPI.Model
+namespace BookStorageAPI.Models
 {
     public class User
     {

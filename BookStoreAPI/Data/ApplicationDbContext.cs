@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using BookStorageAPI.Models;
 
-namespace DbContextAPI.Data
+namespace BookStorageAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -9,6 +9,9 @@ namespace DbContextAPI.Data
             : base(options)
         {
         }
+
         public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
+
